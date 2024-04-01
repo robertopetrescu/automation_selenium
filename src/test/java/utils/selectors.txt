@@ -1,0 +1,13 @@
+acceptGDPR,xpath,//button[@data-gdpr-single-choice-accept]
+signInBtn,xpath,//*[contains(@class,'select-signin header-button')]
+usernameTxt,cssSelector,#join_neu_email_field
+passwordTxt,cssSelector,#join_neu_password_field
+signInFormBtn,cssSelector,button[value='sign-in']
+incorrectUsername,cssSelector,#aria-join_neu_email_field-error
+welcomeHeader,xpath,//*[contains(@class,'welcome-message-text')]
+categories,xpath,//*[contains(@class,'wt-menu__trigger wt-btn wt-btn--transparent header-button wt-mr-xs-1 wt-btn--small')]
+searchTxt,xpath,//input[@data-id='search-query']
+searchBtn,xpath,//button[@value='Search']
+listingLink,xpath,//a[contains(@class,'listing-link')]
+categoryHeader,xpath,//h1[contains(@class,'wt-display-block')]
+spinnerSelector,xpath,//div[@data-loading-container] //div[contains(@class,'wt-spinner')] //span[@class='etsy-icon']
