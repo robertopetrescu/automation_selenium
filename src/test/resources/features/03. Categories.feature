@@ -16,7 +16,8 @@ Feature: 03. Browse categories
       | category      | categoryHeader |
       | Bath & Beauty | Bath & Beauty  |
       | Bags & Purses | Bags & Purses  |
-//313dec95751a4e29825fc0ea023e49a3
+
+  #//313dec95751a4e29825fc0ea023e49a3
   @valid
   Scenario Outline: TC002: Browse a category without logging in
     Given I open Etsy page
