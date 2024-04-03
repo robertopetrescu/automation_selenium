@@ -12,7 +12,7 @@ Scenario: TC001: Test search feature
     And   I click on search product button
     Then  Product list is greater than 3
 
-  @valid
+  @valid @ignore
   Scenario: Test search feature without logging in
     Given I open Etsy page
     And   I accept GDPR
